@@ -1,0 +1,25 @@
+{
+  "name": "redstore-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html cart.html",
+    "build": "parcel build index.html cart.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jebbwebb/redstore-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jebbwebb/redstore-project/issues"
+  },
+  "homepage": "https://github.com/jebbwebb/redstore-project#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

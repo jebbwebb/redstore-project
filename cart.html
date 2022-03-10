@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Store</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="Red Store">
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+        <ul >
+              <li class=><a href="index.html">Home</a></li>
+              <li class=><a href="#">Products</a></li>
+              <li class=><a href="#">About</a></li>
+              <li class=><a href="#">Contact</a></li>
+              <li class=><a href="cart.html"><img class="image-cart" src="images/cart.png" alt="Cart" height="30px" width="30px"></a></li>
+        </ul>
+      </div>
+        
+      </nav>
+    </div>
+    <!-- cart -->
+    
+  <div  class="cart-header-container">
+    <div class="cart-header">
+      <span>Item</span>
+      <span>Price</span>
+      <span>Quantity</span>
+    </div>
+    <div data-cart-container class="cart-container">
+    <template id="cart-item-template">
+      <div  class="cart-row">
+        <div data-item class="cart-item">
+          <div class="cart-name-image">
+          <img data-image src="images/redprintedt-shirt.jpg" alt="" />
+          <h1 data-name>Red Printed T-Shirt</h1>
+        </div>
+        <div class="cart-price">
+          <h1 data-price>$50.00</h1>
+        </div>
+        <div  class="cart-quantity">
+          <h1 data-quantity>1</h1>
+          <button data-remove-cart-button class="remove-btn" type="click">Remove</button>
+        </div>
+        
+      </div>
+      </div>
+      
+    </template>
+    </div>
+    <div class="cart-total">
+      <span>Total:</span>
+      <span data-cart-total></span>
+    </div>
+    
+    
+      
+  </body>
+</html>

@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Red Printed T-Shirt",
+    "price": 5000,
+    "imageSource": "redprintedt-shirt.7a293bd6.jpg",
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "name": "HRX Black Running Shoes",
+    "price": 8000,
+    "imageSource": "blackrunningshoes.86b0dcc1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Grey Joggers",
+    "price": 3500,
+    "imageSource": "greyjoggers.0857186a.jpg"
+  }
+]
